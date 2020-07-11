@@ -10,5 +10,6 @@ public class App
     {
 
         System.out.println( "This is my First JAVA code for git" );
+        System.out.println(" Let's make our score better!");
     }
 }
