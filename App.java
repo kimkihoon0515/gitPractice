@@ -1,15 +1,24 @@
 package New.Git.Practice;
 
+import java.util.Scanner;
+
 /**
  * Hello world!
  *
  */
 public class App 
 {
-    public static void main( String[] args )
+    public static void main(String[]args)
     {
-
-        System.out.println( "This is my First JAVA code for git" );
-        System.out.println(" Let's make our score better!");
+        Scanner in = new Scanner(System.in);
+        int a;
+        a=in.nextInt();
+        in.close();
+        int result;
+        for(int i=1;i<10;i++)
+        {
+            result = a *i;
+            System.out.println(a+"*"+i+"="+result);
+        }
     }
 }
