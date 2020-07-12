@@ -11,7 +11,7 @@ public class num11021 {
         {
             int a = in.nextInt();
             int b = in.nextInt();
-            System.out.println("Case #"+i+": "+(a+b));
+            System.out.println("Case #"+i+": "+a+" + "+b+" = "+(a+b));
         }
         in.close();
     }
