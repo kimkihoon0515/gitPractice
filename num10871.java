@@ -14,7 +14,7 @@ public class num10871 {
         in.close();
         for(int i=0;i<a.length;i++){
             if(a[i]<X){
-                System.out.println(a[i]+" ");
+                System.out.print(a[i]+" ");
             }
         }
 
